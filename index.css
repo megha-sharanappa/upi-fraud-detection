@@ -1,0 +1,61 @@
+body{
+font-family: Arial;
+background:#f4f6f8;
+text-align:center;
+}
+
+h1{
+color:#333;
+}
+
+.container{
+width:80%;
+margin:auto;
+}
+
+input{
+padding:10px;
+margin:10px;
+border-radius:5px;
+border:1px solid gray;
+}
+
+button{
+padding:10px 20px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+table{
+width:100%;
+margin-top:20px;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:10px;
+}
+
+th{
+background:#333;
+color:white;
+}
+
+.fraud{
+color:red;
+font-weight:bold;
+}
+
+.safe{
+color:green;
+font-weight:bold;
+}
+
+#stats {
+margin: 20px 0;
+font-size: 18px;
+}

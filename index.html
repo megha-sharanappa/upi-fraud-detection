@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>UPI Fraud Detection Dashboard</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<h1>UPI Fraud Detection Dashboard</h1>
+
+<div class="container">
+
+<input type="text" id="tid" placeholder="Transaction ID">
+<input type="number" id="amount" placeholder="Amount">
+<input type="text" id="bank" placeholder="Bank Name">
+
+<button onclick="addTransaction()">Add Transaction</button>
+
+<div id="stats">Total Transactions: <span id="total">0</span> | Fraudulent Transactions: <span id="fraudCount">0</span></div>
+
+<table id="table">
+<thead>
+<tr>
+<table border="1" id="transactionTable">
+
+<thead>
+<tr>
+<th>Transaction ID</th>
+<th>Amount</th>
+<th>Bank Name</th>
+<th>Date</th>
+<th>Time</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody id="tbody">
+</tbody>
+
+</table>
+</tr>
+<p>
+Total Transactions: <span id="totalTransactions">0</span> |
+Fraudulent Transactions: <span id="fraudTransactions">0</span>
+</p>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
